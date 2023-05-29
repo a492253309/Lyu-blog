@@ -1,0 +1,29 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /cms
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://zhaoguoshun.cn:3306/cms?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: cms
+    password: 123456
+#    url: jdbc:mysql://rm-bp1bkx8298vgdh7y66o.mysql.rds.aliyuncs.com:3306/vueblog?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT&useSSL=false
+#    username: gaoxinbo
+#    password: Gxb123456@
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: Asia/Shanghai
+
+
+logging:
+  level:
+    com:
+      blog:
+        mapper: debug
+
+mybatis:
+  type-aliases-package: com.blog.entity
+  mapper-locations:  classpath:mybatis/mapper/*.xml
+pagehelper:
+  helper-dialect: mysql
