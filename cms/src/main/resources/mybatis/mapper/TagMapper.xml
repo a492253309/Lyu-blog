@@ -8,7 +8,6 @@
         <result column="tag_name" property="tagName"/>
     </resultMap>
 
-
     <insert id="create" parameterType="Tag">
         insert into tb_tag (tag_name)
         values (#{tagName});

@@ -17,7 +17,7 @@
 - Mysql
 - Vue.js
 - element-ui
-- vue-markdown-edit编辑器插件
+- vue-markdown-edit插件
 
 #### 演示页面
 
