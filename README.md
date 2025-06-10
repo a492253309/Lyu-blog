@@ -1,11 +1,9 @@
+项目基于https://github.com/zhaoguoshun
 # Lyu-blog
 #### 简单介绍
 
 > 该项目是一个简单的个人博客系统项目，前端使用了vue ，后端springboot。
 
-后端项目：https://github.com/a492253309/Lyu-blog
-
-前端项目：https://github.com/a492253309/Lyu-blog-vue
 
 预览地址： 
 
